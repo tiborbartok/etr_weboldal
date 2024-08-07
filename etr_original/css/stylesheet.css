@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    
+    font-family: sans-serif;
+    color: black;
+}
+
+body {
+    width: 100vw;
+    height: auto;
+}
+
+nav {
+    height: 8%;
+    padding: 0% 2%;
+
+    position: sticky;
+    top: 0;
+
+    background: orange;
+    font-size: 1.2vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    overflow: hidden;
+    
+    z-index: 1;
+}
+
+#menu {
+    display: flex;
+    font-size: 1.1vw;
+}
+#menu a {
+    margin: 0 6px;
+    padding: 4px 10px;
+    
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+#menu a.active, a:hover{
+    background: gray;
+    border-radius: 4px;
+}
+
+form, h1 {
+    text-align: center;
+}
+
+h1, .label, .input, .szuldat{
+    margin-top: 10px;
+}
+
+.table{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
